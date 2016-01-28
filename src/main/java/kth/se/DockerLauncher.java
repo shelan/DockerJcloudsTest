@@ -20,10 +20,7 @@ import java.util.Set;
  */
 public class DockerLauncher {
     // get a context with docker that offers the portable ComputeService api
-
-
     public static void main(String[] args) throws RunNodesException {
-
 
         String email = "/Users/shelan/.docker/machine/certs/cert.pem";
         String password = "/Users/shelan/.docker/machine/certs/key.pem";
